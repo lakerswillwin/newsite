@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
     <meta charset="utf-8" />
     <title>Archives | Hexo</title>
-    <meta name="author" content="John Doe" />
+    <meta name="author" content="lane" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta
@@ -51,6 +51,17 @@
 
 <link rel="stylesheet" href="/newsite/css/main.css" />
 
+    <canvas id="fireworks" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 32767"></canvas>
+    <script src="https://cdn.staticfile.org/animejs/3.2.1/anime.min.js"></script>
+    <script src="/js/fireworks.js"></script>
+    <canvas id="background" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: -1"></canvas>
+    <script src="/js/background.js"></script>
+    <div id="cursor"></div>
+    <link rel="stylesheet" href="/js/cus1.css">
+    <script src="/js/cus.js"></script>
+    
+
+
 <meta name="generator" content="Hexo 7.2.0"></head>
 <body>
     <div id="layout">
@@ -70,7 +81,7 @@
         </a>
         
         <a href="/newsite/">
-            <i class="fa-solid fa-house fa-fw"></i>
+            <i class="fa-solid fa-lane的家 fa-fw"></i>
             <span>&ensp;Home</span>
         </a>
         
@@ -106,7 +117,7 @@
                 <a href="/newsite/">
                     <div class="item">
                         <div style="min-width: 20px; max-width: 50px; width: 10%">
-                            <i class="fa-solid fa-house fa-fw"></i>
+                            <i class="fa-solid fa-lane的家 fa-fw"></i>
                         </div>
                         <div style="min-width: 100px; max-width: 150%; width: 20%">Home</div>
                     </div>
@@ -178,6 +189,20 @@
             </div>
         </div>
         
+        <div class="timeline" data-title="">
+            <div class="timeline-tail"></div>
+            <div class="timeline-content">
+                <div class="item-time">2024/5/1</div>
+                <a href="/newsite/2024/05/01/hello/">
+                    <h3></h3>
+                </a>
+                <div class="info">
+                    
+                    
+                </div>
+            </div>
+        </div>
+        
     </div>
 </div>
 
@@ -189,11 +214,18 @@
             <span id="footer-icon">
                 <i class="fa-solid fa-font-awesome fa-fw"></i>
             </span>
-            &commat;John Doe
+            &commat;lane
         </div>
         <div>
             Based on the <a target="_blank" rel="noopener" href="https://hexo.io">Hexo Engine</a> &amp;
             <a target="_blank" rel="noopener" href="https://github.com/theme-particlex/hexo-theme-particlex">ParticleX Theme</a>
+        </div>
+        
+        <div>
+            备案号：
+            
+            
+            
         </div>
         
     </div>
